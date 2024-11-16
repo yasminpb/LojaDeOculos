@@ -1,1 +1,64 @@
---Dados para o sistema
+--Dados e informaçãoes utilizadas para a obtenção do resultados esperados
+
+Criar banco de dados:
+CREATE DATABASE loja_de_oculos;
+
+Tabela clientes:
+CREATE TABLE clientes (
+    id_cliente INT AUTO_INCREMENT PRIMARY KEY,
+    nome_cliente VARCHAR(100),
+    cpf CHAR(11),
+    endereco VARCHAR(200),
+    telefone VARCHAR(15)
+);
+INSERT INTO clientes (nome_cliente, cpf, endereco, telefone) VALUES 
+('João Silva', '12345678901', 'Rua das Flores, 123, São Paulo, SP', '(11) 98765-4321'),
+('Maria Oliveira', '23456789012', 'Avenida Paulista, 456, São Paulo, SP', '(11) 99876-5432'),
+('Carlos Souza', '34567890123', 'Rua dos Pinheiros, 789, Rio de Janeiro, RJ', '(21) 91234-5678'),
+('Ana Costa', '45678901234', 'Alameda Santos, 1357, Belo Horizonte, MG', '(31) 93210-1234'),
+('Bruno Lima', '56789012345', 'Rua da Liberdade, 246, Salvador, BA', '(71) 98765-6789'),
+('Paulo Henrique', '98765432100', 'Av. Central, 45, Curitiba, PR', '(41) 99876-1234'),
+('Fernanda Almeida', '87654321099', 'Rua das Américas, 789, Recife, PE', '(81) 91234-5678'),
+('Cláudia Ferreira', '76543210988', 'Praça da Liberdade, 123, Belo Horizonte, MG', '(31) 98765-4321'),
+('Rafael Santos', '65432109877', 'Rua das Palmeiras, 456, Porto Alegre, RS', '(51) 99876-5432'),
+('Juliana Costa', '54321098766', 'Av. Paulista, 789, São Paulo, SP', '(11) 91123-4567');
+
+Tabela produtos:
+CREATE TABLE produtos (
+    id_produtos INT AUTO_INCREMENT PRIMARY KEY,
+    nome_produto VARCHAR(100),
+    marca VARCHAR(50),
+    preco INT
+);
+INSERT INTO produtos (nome_produto, marca, preco) VALUES 
+('Óculos de Sol', 'Ray-Ban', 800.00),
+('Óculos de Grau', 'Oakley', 1200.00),
+('Lentes de Contato', 'Acuvue', 250.00),
+('Lentes de Contato Coloridas', 'Soflens', 300.00),
+('Armação para Óculos', 'Gucci', 1500.00),
+('Óculos de Sol Esportivo', 'Oakley', 950.00),
+('Óculos de Grau Clássico', 'Chanel', 1800.00),
+('Lentes Multifocais', 'Zeiss', 1200.00),
+('Lentes de Contato Mensais', 'Biofinity', 350.00),
+('Armação para Óculos Infantil', 'Hello Kitty', 500.00);
+
+Tabela vendas:
+CREATE TABLE vendas (
+    id_vendas INT AUTO_INCREMENT PRIMARY KEY,
+    data_venda DATE,
+    valor_total INT,
+    id_cliente INT,
+    FOREIGN KEY (id_cliente) REFERENCES pessoas(id)
+    qtd_produtos INT
+);
+INSERT INTO vendas (data_venda, valor_total, id_cliente, qtd_produtos) VALUES 
+('2024-01-15', 150.00, 1, 2),
+('2024-02-20', 300.00, 2, 5),
+('2024-03-05', 450.00, 3, 3),
+('2024-04-10', 500.00, 1, 7),
+('2024-05-12', 250.00, 4, 1),
+('2024-06-10', 950.00, 1, 1),
+('2024-07-15', 1800.00, 2, 1),
+('2024-08-01', 1550.00, 3, 2),
+('2024-09-20', 350.00, 4, 1),
+('2024-10-05', 950.00, 5, 1);
