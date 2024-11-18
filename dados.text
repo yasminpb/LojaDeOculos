@@ -7,7 +7,7 @@ Tabela clientes:
 CREATE TABLE clientes (
     id_cliente INT AUTO_INCREMENT PRIMARY KEY,
     nome_cliente VARCHAR(100),
-    cpf CHAR(11),
+    cpf VARCHAR(11),
     endereco VARCHAR(200),
     telefone VARCHAR(15)
 );
