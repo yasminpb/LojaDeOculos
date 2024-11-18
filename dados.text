@@ -48,7 +48,7 @@ CREATE TABLE vendas (
     data_venda DATE,
     valor_total INT,
     id_cliente INT,
-    FOREIGN KEY (id_cliente) REFERENCES pessoas(id)
+    FOREIGN KEY (id_cliente) REFERENCES clientes(id)
     qtd_produtos INT
 );
 INSERT INTO vendas (data_venda, valor_total, id_cliente, qtd_produtos) VALUES 
