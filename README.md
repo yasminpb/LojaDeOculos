@@ -1,5 +1,8 @@
 # LojaDeOculos
 Sistema de gerenciamento de uma loja de óculos.
 <br>
-O sistema consiste em 3 tabelas que são a tabela produtos, clientes e vendas. Este sistema é um tabalho avaliativo da base técnica 
-Resultado do sistema
+O sistema consiste em 3 tabelas que são a tabela produtos, clientes e vendas. Este sistema é um tabalho avaliativo da base técnica.
+Tem como objetivo gerenciar e observar os produtos, vendas através de tabelas, gráficos e menu para alternar entre as páginas.
+<br>
+Ná página inicial terá as informaçãoes dos produtos e clientes junto com a pesquisa dessas tabelas já o menu leva para parte dos cadastros, gráfico e página inicial.
+<br>
