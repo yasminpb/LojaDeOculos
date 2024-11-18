@@ -1,3 +1,4 @@
 # LojaDeOculos
 Sistema de gerenciamento de uma loja de óculos
-<img src="C:\Users\yasmin\Documents\loja_oculos">
+Resultado do sistema
+<img src="https://github.com/yasminpb/LojaDeOculos/issues/2#issue-2670026750">
