@@ -6,4 +6,4 @@ Tem como objetivo gerenciar e observar os produtos, vendas através de tabelas, 
 <br>
 Ná página inicial terá as informaçãoes dos produtos e clientes junto com a pesquisa dessas tabelas já o menu leva para parte dos cadastros, gráfico e página inicial.
 <br>
-<img src="resultado/pág.inicial.php">
+<img src="resultado/pag.inicial.php">
