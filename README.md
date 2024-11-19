@@ -8,6 +8,8 @@ Ná página inicial terá as informaçãoes dos produtos e clientes junto com a 
 <br>
 <h2>Referências</h2>
 <a href="https://github.com/Adeilsoara/GraficosPHPMySQL">Adeilsoara/GraficosPHPMySQL
+<a href="">Vídeo tutorial
+<a href="">Internet
 
 <h2>Resultado esperado</h2>
 <img src="resultado/pág_inicial.png">
