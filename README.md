@@ -8,7 +8,9 @@ Ná página inicial terá as informaçãoes dos produtos e clientes junto com a 
 <br>
 <h2>Referências</h2>
 <a href="https://github.com/Adeilsoara/GraficosPHPMySQL">Adeilsoara/GraficosPHPMySQL
+<br>
 <a href="https://youtu.be/CljAPX-U0as?si=TFZy1E0RC29bm_Cz">Vídeo tutorial
+<br>
 <a href="https://www.w3schools.com/php/default.asp">Internet
 
 <h2>Resultado esperado</h2>
