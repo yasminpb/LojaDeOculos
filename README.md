@@ -6,6 +6,9 @@ Tem como objetivo gerenciar e observar os produtos, vendas através de tabelas, 
 <br>
 Ná página inicial terá as informaçãoes dos produtos e clientes junto com a pesquisa dessas tabelas já o menu leva para parte dos cadastros, gráfico e página inicial.
 <br>
+<h2>Referências</h2>
+<a href="https://github.com/Adeilsoara/GraficosPHPMySQL">
+
 <h2>Resultado esperado</h2>
 <img src="resultado/pág_inicial.png">
 <img src="resultado/pág_inicial2.png">
