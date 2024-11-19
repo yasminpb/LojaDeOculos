@@ -11,7 +11,11 @@ Ná página inicial terá as informaçãoes dos produtos e clientes junto com a 
 <br>
 <a href="https://youtu.be/CljAPX-U0as?si=TFZy1E0RC29bm_Cz">Vídeo tutorial
 <br>
+<a href="https://youtu.be/ecD45s8CUZE?feature=shared">CRUD simples
+<br>
 <a href="https://www.w3schools.com/php/default.asp">Internet
+<br>
+<a href="https://www.brmodeloweb.com/lang/pt-br/index.html">BrModelo
 
 <h2>Resultado esperado</h2>
 <img src="resultado/pág_inicial.png">
